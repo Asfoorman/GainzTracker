@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9359249820E2C5A000434EA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9359249720E2C5A000434EA7 /* AppDelegate.swift */; };
+		9359249A20E2C5A000434EA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9359249920E2C5A000434EA7 /* ViewController.swift */; };
+		9359249D20E2C5A000434EA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9359249B20E2C5A000434EA7 /* Main.storyboard */; };
+		9359249F20E2C5A200434EA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9359249E20E2C5A200434EA7 /* Assets.xcassets */; };
+		935924A220E2C5A200434EA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935924A020E2C5A200434EA7 /* LaunchScreen.storyboard */; };
+		935924AD20E2C5A300434EA7 /* GainzTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935924AC20E2C5A300434EA7 /* GainzTrackerTests.swift */; };
+		935924B820E2C5A300434EA7 /* GainzTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935924B720E2C5A300434EA7 /* GainzTrackerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		935924A920E2C5A300434EA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9359248C20E2C5A000434EA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9359249320E2C5A000434EA7;
+			remoteInfo = GainzTracker;
+		};
+		935924B420E2C5A300434EA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9359248C20E2C5A000434EA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9359249320E2C5A000434EA7;
+			remoteInfo = GainzTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9359249420E2C5A000434EA7 /* GainzTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GainzTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9359249720E2C5A000434EA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9359249920E2C5A000434EA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9359249C20E2C5A000434EA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9359249E20E2C5A200434EA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		935924A120E2C5A200434EA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		935924A320E2C5A300434EA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		935924A820E2C5A300434EA7 /* GainzTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GainzTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		935924AC20E2C5A300434EA7 /* GainzTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GainzTrackerTests.swift; sourceTree = "<group>"; };
+		935924AE20E2C5A300434EA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		935924B320E2C5A300434EA7 /* GainzTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GainzTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		935924B720E2C5A300434EA7 /* GainzTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GainzTrackerUITests.swift; sourceTree = "<group>"; };
+		935924B920E2C5A300434EA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9359249120E2C5A000434EA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		935924A520E2C5A300434EA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		935924B020E2C5A300434EA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9359248B20E2C5A000434EA7 = {
+			isa = PBXGroup;
+			children = (
+				9359249620E2C5A000434EA7 /* GainzTracker */,
+				935924AB20E2C5A300434EA7 /* GainzTrackerTests */,
+				935924B620E2C5A300434EA7 /* GainzTrackerUITests */,
+				9359249520E2C5A000434EA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9359249520E2C5A000434EA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9359249420E2C5A000434EA7 /* GainzTracker.app */,
+				935924A820E2C5A300434EA7 /* GainzTrackerTests.xctest */,
+				935924B320E2C5A300434EA7 /* GainzTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9359249620E2C5A000434EA7 /* GainzTracker */ = {
+			isa = PBXGroup;
+			children = (
+				9359249720E2C5A000434EA7 /* AppDelegate.swift */,
+				9359249920E2C5A000434EA7 /* ViewController.swift */,
+				9359249B20E2C5A000434EA7 /* Main.storyboard */,
+				9359249E20E2C5A200434EA7 /* Assets.xcassets */,
+				935924A020E2C5A200434EA7 /* LaunchScreen.storyboard */,
+				935924A320E2C5A300434EA7 /* Info.plist */,
+			);
+			path = GainzTracker;
+			sourceTree = "<group>";
+		};
+		935924AB20E2C5A300434EA7 /* GainzTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				935924AC20E2C5A300434EA7 /* GainzTrackerTests.swift */,
+				935924AE20E2C5A300434EA7 /* Info.plist */,
+			);
+			path = GainzTrackerTests;
+			sourceTree = "<group>";
+		};
+		935924B620E2C5A300434EA7 /* GainzTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				935924B720E2C5A300434EA7 /* GainzTrackerUITests.swift */,
+				935924B920E2C5A300434EA7 /* Info.plist */,
+			);
+			path = GainzTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9359249320E2C5A000434EA7 /* GainzTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 935924BC20E2C5A300434EA7 /* Build configuration list for PBXNativeTarget "GainzTracker" */;
+			buildPhases = (
+				9359249020E2C5A000434EA7 /* Sources */,
+				9359249120E2C5A000434EA7 /* Frameworks */,
+				9359249220E2C5A000434EA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GainzTracker;
+			productName = GainzTracker;
+			productReference = 9359249420E2C5A000434EA7 /* GainzTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		935924A720E2C5A300434EA7 /* GainzTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 935924BF20E2C5A300434EA7 /* Build configuration list for PBXNativeTarget "GainzTrackerTests" */;
+			buildPhases = (
+				935924A420E2C5A300434EA7 /* Sources */,
+				935924A520E2C5A300434EA7 /* Frameworks */,
+				935924A620E2C5A300434EA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				935924AA20E2C5A300434EA7 /* PBXTargetDependency */,
+			);
+			name = GainzTrackerTests;
+			productName = GainzTrackerTests;
+			productReference = 935924A820E2C5A300434EA7 /* GainzTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		935924B220E2C5A300434EA7 /* GainzTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 935924C220E2C5A300434EA7 /* Build configuration list for PBXNativeTarget "GainzTrackerUITests" */;
+			buildPhases = (
+				935924AF20E2C5A300434EA7 /* Sources */,
+				935924B020E2C5A300434EA7 /* Frameworks */,
+				935924B120E2C5A300434EA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				935924B520E2C5A300434EA7 /* PBXTargetDependency */,
+			);
+			name = GainzTrackerUITests;
+			productName = GainzTrackerUITests;
+			productReference = 935924B320E2C5A300434EA7 /* GainzTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9359248C20E2C5A000434EA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Anes Mehai ";
+				TargetAttributes = {
+					9359249320E2C5A000434EA7 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					935924A720E2C5A300434EA7 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 9359249320E2C5A000434EA7;
+					};
+					935924B220E2C5A300434EA7 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 9359249320E2C5A000434EA7;
+					};
+				};
+			};
+			buildConfigurationList = 9359248F20E2C5A000434EA7 /* Build configuration list for PBXProject "GainzTracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9359248B20E2C5A000434EA7;
+			productRefGroup = 9359249520E2C5A000434EA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9359249320E2C5A000434EA7 /* GainzTracker */,
+				935924A720E2C5A300434EA7 /* GainzTrackerTests */,
+				935924B220E2C5A300434EA7 /* GainzTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9359249220E2C5A000434EA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				935924A220E2C5A200434EA7 /* LaunchScreen.storyboard in Resources */,
+				9359249F20E2C5A200434EA7 /* Assets.xcassets in Resources */,
+				9359249D20E2C5A000434EA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		935924A620E2C5A300434EA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		935924B120E2C5A300434EA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9359249020E2C5A000434EA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9359249A20E2C5A000434EA7 /* ViewController.swift in Sources */,
+				9359249820E2C5A000434EA7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		935924A420E2C5A300434EA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				935924AD20E2C5A300434EA7 /* GainzTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		935924AF20E2C5A300434EA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				935924B820E2C5A300434EA7 /* GainzTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		935924AA20E2C5A300434EA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9359249320E2C5A000434EA7 /* GainzTracker */;
+			targetProxy = 935924A920E2C5A300434EA7 /* PBXContainerItemProxy */;
+		};
+		935924B520E2C5A300434EA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9359249320E2C5A000434EA7 /* GainzTracker */;
+			targetProxy = 935924B420E2C5A300434EA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9359249B20E2C5A000434EA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9359249C20E2C5A000434EA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		935924A020E2C5A200434EA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				935924A120E2C5A200434EA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		935924BA20E2C5A300434EA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		935924BB20E2C5A300434EA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		935924BD20E2C5A300434EA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GainzTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.asfoor.GainzTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		935924BE20E2C5A300434EA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GainzTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.asfoor.GainzTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		935924C020E2C5A300434EA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GainzTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.asfoor.GainzTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GainzTracker.app/GainzTracker";
+			};
+			name = Debug;
+		};
+		935924C120E2C5A300434EA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GainzTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.asfoor.GainzTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GainzTracker.app/GainzTracker";
+			};
+			name = Release;
+		};
+		935924C320E2C5A300434EA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GainzTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.asfoor.GainzTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GainzTracker;
+			};
+			name = Debug;
+		};
+		935924C420E2C5A300434EA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GainzTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.asfoor.GainzTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GainzTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9359248F20E2C5A000434EA7 /* Build configuration list for PBXProject "GainzTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				935924BA20E2C5A300434EA7 /* Debug */,
+				935924BB20E2C5A300434EA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		935924BC20E2C5A300434EA7 /* Build configuration list for PBXNativeTarget "GainzTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				935924BD20E2C5A300434EA7 /* Debug */,
+				935924BE20E2C5A300434EA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		935924BF20E2C5A300434EA7 /* Build configuration list for PBXNativeTarget "GainzTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				935924C020E2C5A300434EA7 /* Debug */,
+				935924C120E2C5A300434EA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		935924C220E2C5A300434EA7 /* Build configuration list for PBXNativeTarget "GainzTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				935924C320E2C5A300434EA7 /* Debug */,
+				935924C420E2C5A300434EA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9359248C20E2C5A000434EA7 /* Project object */;
+}
