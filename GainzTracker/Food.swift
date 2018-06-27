@@ -8,8 +8,15 @@
 
 import Foundation
 
+//every meal has a name and description. Later add nutrient info/calories/macro/micro etc
 struct Food {
-    var name: String
-    var description: String   
     
+    var name: String
+    var description: String
+    
+    init(name:String, description:String) {
+        self.name = name
+        self.description = description
+    }
+   
 }
